@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="Update header">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -57,8 +55,15 @@
       <workItem from="1597859110709" duration="3781000" />
       <workItem from="1597863189459" duration="63000" />
       <workItem from="1598026148139" duration="1493000" />
-      <workItem from="1599747731530" duration="50000" />
+      <workItem from="1599747731530" duration="176000" />
     </task>
+    <task id="LOCAL−00001" summary="Update header">
+      <created>1599747824405</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1599747824405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,10 +81,22 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update header" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2929" y="-381" key="FileChooserDialogImpl" timestamp="1598028069056">
       <screen x="2572" y="-1160" width="1152" height="2048" />
     </state>
     <state x="2929" y="-381" key="FileChooserDialogImpl/-1440.-1135.1152.2008/12.-1440.2048.1152/0.0.2048.1112/2572.-1160.1152.2048@2572.-1160.1152.2048" timestamp="1598028069056" />
+    <state x="4181" y="907" key="Vcs.Push.Dialog.v2" timestamp="1599747834771">
+      <screen x="4012" y="150" width="1152" height="2048" />
+    </state>
+    <state x="4181" y="907" key="Vcs.Push.Dialog.v2/0.0.1152.2008/1452.-840.2048.1152/1440.600.2048.1152/4012.150.1152.2048@4012.150.1152.2048" timestamp="1599747834771" />
+    <state x="4343" y="1076" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1599747795037">
+      <screen x="4012" y="150" width="1152" height="2048" />
+    </state>
+    <state x="4343" y="1076" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1152.2008/1452.-840.2048.1152/1440.600.2048.1152/4012.150.1152.2048@4012.150.1152.2048" timestamp="1599747795037" />
   </component>
 </project>
