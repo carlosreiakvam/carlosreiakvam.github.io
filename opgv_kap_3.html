@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Carlos Reiakvam" />
+<meta name="author" content="Author: Carlos Andrés Reiakvam" />
 
 
 <title>Statistikk - Kap 3</title>
@@ -364,26 +364,31 @@ summary {
 
 
 <h1 class="title toc-ignore">Statistikk - Kap 3</h1>
-<h4 class="author">Carlos Reiakvam</h4>
-<h4 class="date">14/9/2020</h4>
+<h4 class="author">Author: Carlos Andrés Reiakvam</h4>
 
 </div>
 
 
-<div id="oppgave-3.1" class="section level2">
+<div id="oppgave-3.1" class="section level2 tabset">
 <h2>Oppgave 3.1</h2>
-<div id="a-verifiser-at-dette-faktisk-er-en-sannsynlighetsfordeling" class="section level3">
-<h3>3.1.a: Verifiser at dette faktisk er en sannsynlighetsfordeling</h3>
+<p><strong>Viktige å få med seg fra denne oppgaven</strong><br />
+Forstå hva som gjør sannsynlighetsfordelingen diskret og hva det innebærer. Kort fortalt:</p>
+<ul>
+<li><p>Når en sannsynlighetsfordeling er diskret eksisterer det ingen mellomverdier mellom sannsynlighetene.</p></li>
+<li><p>Vi har dermed at: <span class="math inline">\(X = \{a, b\} \rightarrow P(X&lt;b)= P(X=a)\)</span>.</p></li>
+<li><p>Med andre ord: Det eksisterer ingen kontinuerlige verdier mellom (X=a) og (X=b). Verdien er enten a, eller neste steg; b.</p></li>
+</ul>
+<div id="a" class="section level3">
+<h3>3.1.a:</h3>
+<p><strong>Oppgave:</strong> Verifiser at dette faktisk er en sannsynlighetsfordeling</p>
 <p>Ser på sannsynlighetsfordelingen for <span class="math inline">\(P(X\leq4)\)</span>, <span class="math inline">\(P(X=5)\)</span> og <span class="math inline">\(P(X&gt;5)\)</span>. Summerer disse og forventer å få s = 1</p>
 <pre class="r"><code>s = 0.47+0.11+0.42
 s</code></pre>
 <pre><code>## [1] 1</code></pre>
 </div>
-<div id="b-finn-diverse-sannsynligheter" class="section level3">
-<h3>3.1.b: Finn diverse sannsynligheter</h3>
-<p>Det viktige å ta med seg herfra er at det er å forstå hva det vil si at det er diskrete sannsynlighetsfordelinger.<br />
-Når en sannsynlighetsfordeling er diskret finnes noen mellomverdier.<br />
-I settet på {0,1,2,3,4,5,6,7,8,9,10} vil alt over 7 være 8, 9 og 10. Det eksisterer ikke noe sånt som 7.5 osv.</p>
+<div id="b" class="section level3">
+<h3>3.1.b:</h3>
+<p><strong>Oppgave:</strong> Finn diverse sannsynligheter</p>
 <div id="i" class="section level5">
 <h5>I)</h5>
 <p><span class="math inline">\(P(X\leq1)\)</span><br />
@@ -406,8 +411,9 @@ Fordi alt under 2 vil være 1.</p>
 <p><span class="math inline">\(P(X\geq5) = P(X=5) + P(X&gt;5) = 0.11+0.42 = 0.53\)</span></p>
 </div>
 </div>
-<div id="c-finn-diverse-sannsynligheter" class="section level3">
-<h3>3.1.c: Finn diverse sannsynligheter</h3>
+<div id="c" class="section level3">
+<h3>3.1.c:</h3>
+<p><strong>Oppgave:</strong> Finn diverse sannsynligheter</p>
 <div id="i-1" class="section level5">
 <h5>I)</h5>
 <p><span class="math inline">\(P(X=2) = P(X&lt;3) - P(X&lt;2) = 0.31-0.24 = 0.07\)</span></p>
@@ -427,6 +433,99 @@ Fordi alt under 2 vil være 1.</p>
 <p>Utregningen blir da:</p>
 <p><span class="math inline">\(P(2 \geq X &lt; 5) = P(X\leq4)-P(X&lt;2) = 0.47-0.24 = 0.23\)</span></p>
 </div>
+</div>
+</div>
+<div id="oppgave-3.2" class="section level2 tabset">
+<h2>Oppgave 3.2</h2>
+<div id="a-1" class="section level3">
+<h3>3.2.a:</h3>
+<p>Verifiserer at det er en sannsynlighetsfordeling ved å summere alle enhetene og sjekke at de til sammen utgjør 1</p>
+<pre class="r"><code>0.08+0.15+0.31+0.24+0.11+0.07+0.04</code></pre>
+<pre><code>## [1] 1</code></pre>
+</div>
+<div id="b-1" class="section level3">
+<h3>3.2.b:</h3>
+<div id="i-2" class="section level5">
+<h5>I)</h5>
+<p><span class="math inline">\(P(X&lt;2) = P(X=1) = 0.08\)</span></p>
+<pre class="r"><code>1-(0.15+0.08)</code></pre>
+<pre><code>## [1] 0.77</code></pre>
+</div>
+<div id="ii-2" class="section level5">
+<h5>II)</h5>
+<p><span class="math inline">\(P(X\geq5) = 0.11+0.07+0.04 = 0.22\)</span></p>
+</div>
+<div id="iii-2" class="section level5">
+<h5>III)</h5>
+<p><span class="math inline">\(P(2\leq X &lt;7) = 0.15+0.31+0.24+0.11+0.07 = 0.73\)</span></p>
+<pre class="r"><code>0.15+0.31+0.24+0.11+0.07</code></pre>
+<pre><code>## [1] 0.88</code></pre>
+</div>
+</div>
+<div id="c-1" class="section level3">
+<h3>3.2.c:</h3>
+<p>Bruker formel for forventningsverdi fra side 103 i læreboka.</p>
+<pre class="r"><code>u = 1*(0.08)+ 2*(0.15)+3*(0.31)+4*0.24+5*0.11+6*0.07+7*0.04
+u</code></pre>
+<pre><code>## [1] 3.52</code></pre>
+<p>Forventningsverdien er 3.52</p>
+</div>
+<div id="d" class="section level3">
+<h3>3.2.d:</h3>
+<p>Regner varians og standardavvik med formel fra side 103 i læreboka.</p>
+<pre class="r"><code>X &lt;- c(1,2,3,4,5,6,7)
+P &lt;- c(0.08,0.15,0.31,0.24,0.11,0.07,0.04)
+varians = 0
+
+for (i in 1:7){
+  varians = varians +  (X[i] - u)^2 * P[i] 
+}
+varians</code></pre>
+<pre><code>## [1] 2.1496</code></pre>
+<p>Standardavvik er kvadratroten av variansen</p>
+<pre class="r"><code>standardAvvik &lt;- sqrt(varians)
+standardAvvik</code></pre>
+<pre><code>## [1] 1.466151</code></pre>
+</div>
+<div id="e" class="section level3">
+<h3>3.2.e:</h3>
+<p><span class="math inline">\(Y = 3X+2\)</span><br />
+Lager en tabell basert på verdiene til X</p>
+<pre class="r"><code>Y &lt;- c(0,0,0,0,0,0)
+
+for (i in 1:7) {
+  Y[i] &lt;- 3*X[i]+2
+}
+
+
+table3.2.e &lt;- matrix(c(Y,P), ncol=7,byrow=TRUE)
+rownames(table3.2.e) &lt;- c(&quot;Y&quot;,&quot;P&quot;)
+table3.2.e</code></pre>
+<pre><code>##   [,1] [,2]  [,3]  [,4]  [,5]  [,6]  [,7]
+## Y 5.00 8.00 11.00 14.00 17.00 20.00 23.00
+## P 0.08 0.15  0.31  0.24  0.11  0.07  0.04</code></pre>
+</div>
+<div id="f" class="section level3">
+<h3>3.2.f:</h3>
+<p>Forventningsverdi til Y:</p>
+<pre class="r"><code>u = 0
+for (i in 1:7) {
+  u &lt;- u + (Y[i]*P[i])
+}
+u</code></pre>
+<pre><code>## [1] 12.56</code></pre>
+<p>Standardavvik:</p>
+<pre class="r"><code>varians = 0
+
+for (i in 1:7){
+  varians = varians +  (Y[i] - u)^2 * P[i] 
+}
+varians</code></pre>
+<pre><code>## [1] 19.3464</code></pre>
+<p>Standardavvik:</p>
+<pre class="r"><code>standardAvvik &lt;- sqrt(varians)
+standardAvvik</code></pre>
+<pre><code>## [1] 4.398454</code></pre>
 </div>
 </div>
 
