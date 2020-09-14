@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Carlos Reiakvam" />
+<meta name="author" content="Carlos Andrés Reiakvam" />
 
 
 <title>Statistikk - Kap 3</title>
@@ -364,43 +364,105 @@ summary {
 
 
 <h1 class="title toc-ignore">Statistikk - Kap 3</h1>
-<h4 class="author">Carlos Reiakvam</h4>
-<h4 class="date">14/9/2020</h4>
+<h4 class="author">Carlos Andrés Reiakvam</h4>
 
 </div>
 
-<div id="TOC">
-true
-</div>
 
+<div id="oppgave-3.1" class="section level2 tabset">
+<h2>Oppgave 3.1</h2>
+<p><strong>Viktige å få med seg fra denne oppgaven</strong><br />
+Forstå hva som gjør sannsynlighetsfordelingen diskret og hva det innebærer. Kort fortalt:</p>
+<ul>
+<li><p>Når en sannsynlighetsfordeling er diskret eksisterer det ingen mellomverdier mellom sannsynlighetene.</p></li>
+<li><p>Vi har dermed at: <span class="math inline">\(X = \{a, b\} \rightarrow P(X&lt;b)= P(X=a)\)</span>.</p></li>
+<li><p>Med andre ord: Det eksisterer ingen kontinuerlige verdier mellom (X=a) og (X=b). Verdien er enten a, eller neste steg; b.</p></li>
+</ul>
+<div id="a" class="section level3">
+<h3>3.1.a:</h3>
+<p><strong>Oppgave:</strong> Verifiser at dette faktisk er en sannsynlighetsfordeling</p>
+<p>Ser på sannsynlighetsfordelingen for <span class="math inline">\(P(X\leq4)\)</span>, <span class="math inline">\(P(X=5)\)</span> og <span class="math inline">\(P(X&gt;5)\)</span>. Summerer disse og forventer å få s = 1</p>
+<pre class="r"><code>s = 0.47+0.11+0.42
+s</code></pre>
+<pre><code>## [1] 1</code></pre>
+</div>
+<div id="b" class="section level3">
+<h3>3.1.b:</h3>
+<p><strong>Oppgave:</strong> Finn diverse sannsynligheter</p>
+<div id="i" class="section level5">
+<h5>I)</h5>
+<p><span class="math inline">\(P(X\leq1)\)</span><br />
+Siden <span class="math inline">\(P(X&lt;2) = 0.24\)</span> vil også <span class="math inline">\(P(X\leq1) = 0.24\)</span><br />
+Fordi alt under 2 vil være 1.</p>
+</div>
+<div id="ii" class="section level5">
+<h5>II)</h5>
+<p><span class="math inline">\(P(X\leq5) = P(X\leq4)+P(X=5)\)</span></p>
+<pre class="r"><code>0.47+0.11</code></pre>
+<pre><code>## [1] 0.58</code></pre>
+<p><span class="math inline">\(P(X\leq5) = 0.58\)</span></p>
+</div>
+<div id="iii" class="section level5">
+<h5>III)</h5>
+<p>Siden <span class="math inline">\(P(X\geq8) = 0.17\)</span> vil også <span class="math inline">\(P(X\geq7) = 0.17\)</span> Fordi alt over 7 er 8</p>
+</div>
+<div id="vi" class="section level5">
+<h5>VI)</h5>
+<p><span class="math inline">\(P(X\geq5) = P(X=5) + P(X&gt;5) = 0.11+0.42 = 0.53\)</span></p>
+</div>
+</div>
+<div id="c" class="section level3">
+<h3>3.1.c:</h3>
+<p><strong>Oppgave:</strong> Finn diverse sannsynligheter</p>
+<div id="i-1" class="section level5">
+<h5>I)</h5>
+<p><span class="math inline">\(P(X=2) = P(X&lt;3) - P(X&lt;2) = 0.31-0.24 = 0.07\)</span></p>
+</div>
+<div id="ii-1" class="section level5">
+<h5>II)</h5>
+<p><span class="math inline">\(P(2 &lt; X &lt; 8) = P(x=3) + P(x=4) + P(x=5) + P(x=6) + P(x=7)\)</span></p>
+<p><span class="math inline">\(P(2 &lt; X &lt; 8) = 1 - (\; P(X&lt;3) + P(X\geq8) \;) = 1 - (0.31+0.17) = 0.52\)</span></p>
+</div>
+<div id="iii-1" class="section level5">
+<h5>III)</h5>
+<p><span class="math inline">\(P(2 \geq X &lt; 5) = \;?\)</span></p>
+<p>Det spørres etter en sannsynlighet høyere OG inkludert 2 OG mindre enn 5.</p>
+<p>Det spørres altså etter <span class="math inline">\(P(X=2) + P(X=3) + P(X=4)\)</span></p>
+<p>Husk da at <span class="math inline">\(P(X\leq4) = P(X=1) + P(X=2) + P(X=3) + P(X=4)\)</span></p>
+<p>Dermed må <span class="math inline">\(P(X=1) = P(X&lt;2)\)</span> fjernes for å oppnå ønsket resultat.</p>
+<p>Utregningen blir da:</p>
+<p><span class="math inline">\(P(2 \geq X &lt; 5) = P(X\leq4)-P(X&lt;2) = 0.47-0.24 = 0.23\)</span></p>
+</div>
+</div>
+</div>
 <div id="oppgave-3.2" class="section level2 tabset">
 <h2>Oppgave 3.2</h2>
-<div id="a" class="section level3">
+<div id="a-1" class="section level3">
 <h3>3.2.a:</h3>
 <p>Verifiserer at det er en sannsynlighetsfordeling ved å summere alle enhetene og sjekke at de til sammen utgjør 1</p>
 <pre class="r"><code>0.08+0.15+0.31+0.24+0.11+0.07+0.04</code></pre>
 <pre><code>## [1] 1</code></pre>
 </div>
-<div id="b" class="section level3">
+<div id="b-1" class="section level3">
 <h3>3.2.b:</h3>
-<div id="i" class="section level5">
+<div id="i-2" class="section level5">
 <h5>I)</h5>
 <p><span class="math inline">\(P(X&lt;2) = P(X=1) = 0.08\)</span></p>
 <pre class="r"><code>1-(0.15+0.08)</code></pre>
 <pre><code>## [1] 0.77</code></pre>
 </div>
-<div id="ii" class="section level5">
+<div id="ii-2" class="section level5">
 <h5>II)</h5>
 <p><span class="math inline">\(P(X\geq5) = 0.11+0.07+0.04 = 0.22\)</span></p>
 </div>
-<div id="iii" class="section level5">
+<div id="iii-2" class="section level5">
 <h5>III)</h5>
 <p><span class="math inline">\(P(2\leq X &lt;7) = 0.15+0.31+0.24+0.11+0.07 = 0.73\)</span></p>
 <pre class="r"><code>0.15+0.31+0.24+0.11+0.07</code></pre>
 <pre><code>## [1] 0.88</code></pre>
 </div>
 </div>
-<div id="c" class="section level3">
+<div id="c-1" class="section level3">
 <h3>3.2.c:</h3>
 <p>Bruker formel for forventningsverdi fra side 103 i læreboka.</p>
 <pre class="r"><code>u = 1*(0.08)+ 2*(0.15)+3*(0.31)+4*0.24+5*0.11+6*0.07+7*0.04
