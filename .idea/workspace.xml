@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="Tiny update">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="del kap1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stat_kap1.html" beforeDir="false" afterPath="$PROJECT_DIR$/stat_kap1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <workItem from="1598026148139" duration="1493000" />
       <workItem from="1599747731530" duration="4691000" />
       <workItem from="1600104501501" duration="3983000" />
-      <workItem from="1600142704756" duration="1525000" />
+      <workItem from="1600142704756" duration="1678000" />
     </task>
     <task id="LOCAL−00001" summary="Update header">
       <created>1599747824405</created>
@@ -205,7 +206,13 @@
       <option name="presentableId" value="LOCAL−00022" />
       <updated>1600144128514</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="del kap1">
+      <created>1600144250721</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1600144250721</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,17 +251,22 @@
     <MESSAGE value="Add Stat_Kap1.html" />
     <MESSAGE value="Add stat_Kap1.html" />
     <MESSAGE value="Tiny update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tiny update" />
+    <MESSAGE value="del kap1" />
+    <option name="LAST_COMMIT_MESSAGE" value="del kap1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2929" y="-381" key="FileChooserDialogImpl" timestamp="1598028069056">
       <screen x="2572" y="-1160" width="1152" height="2048" />
     </state>
     <state x="2929" y="-381" key="FileChooserDialogImpl/-1440.-1135.1152.2008/12.-1440.2048.1152/0.0.2048.1112/2572.-1160.1152.2048@2572.-1160.1152.2048" timestamp="1598028069056" />
-    <state x="2733" y="318" key="Vcs.Push.Dialog.v2" timestamp="1600144219058">
+    <state x="3029" y="500" key="VCS.EditChangelistDialog" timestamp="1600144364881">
       <screen x="2564" y="-439" width="1152" height="2048" />
     </state>
-    <state x="2733" y="318" key="Vcs.Push.Dialog.v2/-1440.-589.1152.2048/4.-1440.2048.1152/0.0.2048.1152/2564.-439.1152.2048@2564.-439.1152.2048" timestamp="1600144219058" />
+    <state x="3029" y="500" key="VCS.EditChangelistDialog/-1440.-589.1152.2048/4.-1440.2048.1152/0.0.2048.1152/2564.-439.1152.2048@2564.-439.1152.2048" timestamp="1600144364881" />
+    <state x="2733" y="318" key="Vcs.Push.Dialog.v2" timestamp="1600144296540">
+      <screen x="2564" y="-439" width="1152" height="2048" />
+    </state>
+    <state x="2733" y="318" key="Vcs.Push.Dialog.v2/-1440.-589.1152.2048/4.-1440.2048.1152/0.0.2048.1152/2564.-439.1152.2048@2564.-439.1152.2048" timestamp="1600144296540" />
     <state x="4181" y="907" key="Vcs.Push.Dialog.v2/0.0.1152.2008/1452.-840.2048.1152/1440.600.2048.1152/4012.150.1152.2048@4012.150.1152.2048" timestamp="1599750600503" />
     <state x="4406" y="1088" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599750567703">
       <screen x="4012" y="150" width="1152" height="2048" />
