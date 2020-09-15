@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="Update sketchboard img ref" />
+    <list default="true" id="ca84268e-470a-4528-a3ba-8bddf9858c94" name="Default Changelist" comment="Update opgv3">
+      <change beforePath="$PROJECT_DIR$/opgv_kap_3.html" beforeDir="false" afterPath="$PROJECT_DIR$/opgv_kap_3.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +71,7 @@
       <workItem from="1598026148139" duration="1493000" />
       <workItem from="1599747731530" duration="4691000" />
       <workItem from="1600104501501" duration="3983000" />
+      <workItem from="1600142704756" duration="390000" />
     </task>
     <task id="LOCAL−00001" summary="Update header">
       <created>1599747824405</created>
@@ -166,7 +169,13 @@
       <option name="presentableId" value="LOCAL−00016" />
       <updated>1600108988487</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL−00017" summary="Update opgv3">
+      <created>1600142844706</created>
+      <option name="number" value="LOCAL−00017" />
+      <option name="presentableId" value="LOCAL−00017" />
+      <updated>1600142844706</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +209,8 @@
     <MESSAGE value="Add sketchboard_kap1.html" />
     <MESSAGE value="Change tab layout" />
     <MESSAGE value="Update sketchboard img ref" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update sketchboard img ref" />
+    <MESSAGE value="Update opgv3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update opgv3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2929" y="-381" key="FileChooserDialogImpl" timestamp="1598028069056">
